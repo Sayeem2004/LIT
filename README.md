@@ -2,7 +2,7 @@
 ## Information  
 - A competive coding competition for groups of up to 3.  
 - There is 1 competition per year and there are 12 problems per competition.  
-- Started 2020-07-23 03:15:44.
+- Started 2020-07-23.
 - https://lit.lhsmathcs.org/contest  
 ## Scores  
 - 2020  
