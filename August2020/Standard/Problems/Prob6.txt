@@ -1,0 +1,42 @@
+Problem Statement
+At LHS, there are N cliques, each with their own currencies, with the ith clique's currency face value being a_i. It is also given that if i > j, then a_i > a_j and a_i is a multiple of a_j. As you might know, not all cliques like each other, and there are M pairs of clubs that get along. So we define clique i to be a child of clique j, if a_j > a_i and they get along. Furthermore, once you become the captain of a clique, you can use their currencies as much as you want. In order to become the captain of a clique, you must first become the capitains of all its children, and in addition, you must then use those cliques' currencies to pay a captain fee, which just so happens to be their clique currency's face value. You are currently the capitain of clique #1, the bottom of society, and your goal is to become the captain of the ultimate clique, clique #N. Additionally, you want to do it as fast as possible, so you won't spend time becoming captains of irrelevant clubs. Count the number of ways to become the captain of clique #N. Two ways are considered different if you use a different number of a certain currency to become the captain of a club. The order of which you pay does not matter. As the answer can get quite large, please also do modulo 1000000007.
+
+Additional Notes
+Time limit for Java and C++ is 2.5 seconds, and for Python is 5 seconds.
+Memory limit for all languages is 128mb
+Finally, the problem uses standard IO(so not reading files)
+
+Constraints
+1 ≤ N ≤ 20
+1 ≤ a_i ≤ 10^18
+
+Input format
+The first line contains three integers: N,M
+The second line contains N integers. The ith integer is a_i, the face value of the ith club's currency
+The last M lines each contains two integers, b_i and c_i, meaning that b_i and c_i gets along.
+
+Output format
+A single integer indicating the number of ways modulo 1e9+7.
+
+Sample input:
+5 6
+1 2 4 8 16
+1 2
+1 3
+2 3
+3 4
+3 5
+4 5
+
+Sample output
+9
+
+Sample Explanation
+First, you must become the cptain of clique #2, which there is only 1 way to do so.
+Then there are 3 ways to become clique #3's captain:
+1. Clique #1 can give 6 currency directly to clique #3.
+2. Clique #1 can give 3 currency to clique #3. Then clique #2 gives one of their currency to clique #3.
+3. Clique #2 can give 2 currency to clique #3.
+Similarly, we can do the same thing for cliques #3, #4, and #5, giving us 3 * 3 = 9 ways.
+
+Credit: Alex F

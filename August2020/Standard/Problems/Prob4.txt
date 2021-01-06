@@ -1,0 +1,40 @@
+Problem Statement
+On the campus of LHS, there are N buildings connected by M roads. You will need to determine the minimum cost to go from building 1 to buildings 2,3,4...,N, or determine that it is impossible. (so cost from 1 to 2, cost from 1 to 3, etc.).
+
+You have an energy bar with a capacity of t gallons of energy drinks. You start from building 1 with full energy, and in building i you can buy 1 gallon of energy drink for cost[i] (if cost[i] = 0, you can’t buy energy in that building). Note that 1 gallon of energy drinks provides you with enough energy to walk 1 meter.
+
+
+Additional Notes
+C++: 2.5 seconds
+Java, Python: 5 seconds
+Memory Limit: 128mb
+Finally, the problem uses standard IO(so not reading files)
+
+Constraints
+2 <= N <= 1e4
+2 <= M <= 1e4
+1 <= a[i],b[i] <= N
+0 <= t <= 30
+0 <= cost[i] <= 100
+0 <= c[i] (meters distance between buildings) <= 100
+
+Input format
+The first line contains three integers: N, M, and t.
+The second line contains N integers, with the ith integer being cost[i].
+The last M lines describes M roads, each containing three integers: a[i] and b[i] and c[i], meaning that there is a road between a[i] and b[i] with c[i] meters.
+Output format
+You should output N - 1 integers in one line, with the ith integer being the minimum cost to go from building 1 to building (i + 1), and -1 if its impossible.
+
+Sample input:
+5 5 5
+1 4 2 5 0
+1 2 3
+2 3 2
+2 4 2
+4 5 1
+1 3 1
+
+Sample output
+0 0 0 2
+
+Credit: Egor G

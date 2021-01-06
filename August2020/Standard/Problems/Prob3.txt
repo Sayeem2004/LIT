@@ -1,0 +1,44 @@
+Problem Statement
+It is time for the annual LHS Math Contest! This year, the math committee decided that the theme of the Tournament will be multiplication. The test consists of N integers; each conveniently indexed 1 to N, a[1] to a[N]. There are also M questions. Each question is defined by l and r. Your job is to calculate the product of all the numbers starting at the lth integer, skipping every other number, up until the rth integer or (r - 1)th integer: a[l] * a[l + 2] * a[l + 4].... a[r or r - 1]. Being the clever student as you are, you sneaked in with a computer, allowing you to write an algorithm to do the math for you!
+
+Answer the M questions on your test and win the Tournament! (Disclaimer: LIT does not in any way support cheating during the contest)
+
+Additional Notes
+C++: 2.5 seconds
+Java, Python: 5 seconds
+Memory Limit: 128mb
+Finally, the problem uses standard IO(so not reading files)
+
+Constraints
+1 ≤ N ≤ 1e5
+1 ≤ M ≤ 1e5
+1 ≤ l[i] ≤ r[i] ≤ N
+0 ≤ a[i] ≤ 1e5
+
+Input format
+The first line contains one integer: N
+The second line contains N integers.
+The third line contains one integer: M
+The last M lines each contain two integers: l[i] and r[i].
+Output format
+You should output M integers, with the ith integer being the answer to the ith question. Note that since the numbers can get quite big, please do modulo 1000000007.
+
+Sample input:
+5
+1 2 3 4 5
+3
+1 1
+1 2
+3 5
+
+Sample output
+1
+1
+15
+
+Sample Explanation
+1 = 1
+1 = 1 (Skipped the second number)
+3 * 5 = 15 (Skipped the second number)
+
+Credit: Egor G
