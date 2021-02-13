@@ -8,3 +8,6 @@
 - 2020  
   - Standard - 21/60 - 3 hours - Andrew Juang & Bryan Zhang & Mohammad Khan  
   - Guts - 0/6 - 1 hour - Andrew Juang & Mohammad Khan
+## Ownership
+- Files in Problems were not made by me.
+- Files in Solutions were made by me and friends.
