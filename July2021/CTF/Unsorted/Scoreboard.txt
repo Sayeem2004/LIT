@@ -1,0 +1,42 @@
+
+Home
+Challenges
+Scoreboard
+Resources
+Profile
+floofers
+🏆2614 Total Points
+
+🏫Eligible (6-12)
+
+🦅From US
+
+Solves
+Category	Challenge	Solve time	Points
+misc	misc/Intro To CTF	07-16-2021 12:07:09	106
+misc	misc/HelloWorld	07-16-2021 12:27:56	0
+crypto	crypto/7 More Caesar Salads	07-16-2021 12:28:11	106
+misc	misc/Hex to ASCII	07-16-2021 12:28:40	106
+web	web/Let It Go	07-16-2021 12:29:26	105
+misc	misc/Peanutbutter.Jar	07-16-2021 12:34:06	107
+rev	rev/Yarn	07-16-2021 12:38:06	109
+misc	misc/CodeTiger ORZ	07-16-2021 12:40:43	115
+misc	misc/Steganography	07-16-2021 12:57:40	111
+misc	misc/Discord Flag	07-16-2021 13:21:52	108
+misc	misc/Dots and Lines	07-16-2021 13:22:44	109
+web	web/My First Website	07-16-2021 15:49:20	107
+rev	rev/Evaluation	07-16-2021 16:07:30	114
+crypto	crypto/Geometry is Fun!	07-16-2021 16:21:50	127
+misc	misc/GeoGuessr1	07-16-2021 16:45:12	123
+crypto	crypto/Zzz	07-16-2021 16:46:19	111
+rev	rev/Shuffle	07-17-2021 00:00:41	121
+crypto	crypto/RSA Improved	07-17-2021 00:51:26	117
+misc	misc/Rythm	07-17-2021 01:22:22	209
+misc	misc/Never Gonna Give You Up	07-17-2021 16:25:56	115
+pwn	pwn/Gets	07-17-2021 21:53:47	122
+web	web/dizzy	07-18-2021 03:12:57	109
+crypto	crypto/Leftovers	07-18-2021 03:54:21	157
+Contact Us
+ lexmathcsclub@gmail.com
+ LIT Discord Server
+{"mode":"full","isActive":false}
